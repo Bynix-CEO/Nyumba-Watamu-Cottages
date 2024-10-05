@@ -5,7 +5,7 @@
 /* Home Page */
 .homePage {
   align-items: center;
-  background-image: url(/src/10-minuti-agli-isolotti.jpg);
+  background-image: url(./images/watamu-ocean.jpg);
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -83,7 +83,7 @@ h3 {
 
 .menuPageContainer {
   position: relative;
-  background-image: url("../excursions/sunsetpexels.jpg");
+  background-image: url("./images/sunsetpexels.jpg");
   height: 100vh;
   background-size: cover;
   background-position: center;
