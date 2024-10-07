@@ -20,54 +20,81 @@
     "
     />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
     <title>Nyumba Watamu | Beach Cottage</title>
   </head>
   <body>
     <div class="container-fluid">
       <!-- Navigation Menu for all pages -->
-      <div class="ui menu topBar">
-        <div>
-          <a href="index.html"><img src="./images/logo_2.png" alt="" /></a>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="./images/logo_2.png" alt="Logo" style="width: 200px" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="accomodation.html">Accommodation</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="destinations.html">Excursions</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacts.html">Contacts</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Our Story</a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <nav class="nav right menu">
-          <button class="ui button"><a href="index.html">Home</a></button>
-          <button class="ui button">
-            <a href="accomodation.html">Accommodation</a>
-          </button>
-          <button class="ui button">
-            <a href="destinations.html">Excursions</a>
-          </button>
-          <button class="ui button"><a href="contacts.html">Contacts</a></button>
-          <button class="ui button"><a href="">Our Story</a></button>
-        </nav>
-      </div>
+      </nav>
       <!-- Accomodation Page -->
       <div>
         <h2 class="accomodationPageTitle">
           Esplora I nostri appartamenti nella nostra struttura privata
         </h2>
         <p>
-          Unveil the charm of our luxurious accommodations through our stunning
-          image gallery. Each photograph captures the essence of comfort and
-          elegance, offering a glimpse into the serene spaces where relaxation
-          meets sophistication. From our beautifully designed rooms to
-          breathtaking views, every image tells a story of unparalleled comfort
-          and style. Explore our exclusive gallery and imagine yourself in a
-          haven where every detail is crafted to provide an unforgettable
-          experience. Whether you're seeking a tranquil retreat or an
-          adventurous escape, our accommodations promise to exceed your
-          expectations.
+          Svela il fascino delle nostre lussuose sistemazioni attraverso la
+          nostra straordinaria galleria di immagini. Ogni fotografia cattura
+          l'essenza del comfort e dell'eleganza, offrendo uno sguardo sugli
+          spazi sereni in cui il relax incontra la sofisticatezza. Dalle nostre
+          camere splendidamente progettate a panorami mozzafiato, ogni immagine
+          racconta una storia di comfort e stile senza pari. Esplora la nostra
+          galleria esclusiva e immagina di trovarti in un rifugio dove ogni
+          dettaglio è curato per offrire un'esperienza indimenticabile. Che tu
+          stia cercando una fuga tranquilla o un'avventura emozionante, le
+          nostre sistemazioni promettono di superare le tue aspettative.
         </p>
         <p>
-          Step into a world where your every need is catered to with exceptional
-          care. Our accommodations offer 24-hour monitoring for your peace of
-          mind, ensuring a safe and secure environment around the clock. Dive
-          into relaxation with access to our refreshing swimming pool, perfect
-          for a leisurely swim or a sun-soaked afternoon. Enjoy the freedom of a
-          private kitchen, fully equipped for all your culinary adventures, and
-          savor the privacy of your own bathroom, designed for ultimate comfort.
-          With these top-notch amenities, we provide a haven where luxury meets
-          practicality, making your stay both enjoyable and memorable.
+          Entra in un mondo dove ogni tuo bisogno è soddisfatto con eccezionale
+          cura. Le nostre sistemazioni offrono monitoraggio 24 ore su 24 per la
+          tua tranquillità, garantendo un ambiente sicuro e protetto a qualsiasi
+          ora del giorno e della notte. Immergiti nel relax con accesso alla
+          nostra rinfrescante piscina, perfetta per una nuotata tranquilla o un
+          pomeriggio al sole. Goditi la libertà di una cucina privata,
+          completamente attrezzata per tutte le tue avventure culinarie, e
+          assapora la privacy del tuo bagno, progettato per il massimo comfort.
+          Con questi servizi di alta qualità, offriamo un rifugio dove il lusso
+          incontra la praticità, rendendo il tuo soggiorno sia piacevole che
+          memorabile.
         </p>
         <div id="hero-carousel" class="carousel slide">
           <div class="carousel-inner">
@@ -149,9 +176,72 @@
             <img src="./images/private bathroom.jpeg" alt="" />
           </div>
         </div>
-          
-        </div>
       </div>
+
+      <!-- Footer -->
+      <footer class="footer bg-dark text-light" style="margin-top: 30px">
+        <div class="container py-4">
+          <div class="row">
+            <div class="col-md-4 mb-3">
+              <h3>About Us</h3>
+              <p>
+                Discover more about our services and what makes us unique. We
+                are dedicated to providing a memorable experience for all our
+                guests.
+              </p>
+            </div>
+
+            <div class="col-md-4 mb-3">
+              <h3>Quick Links</h3>
+              <ul class="list-unstyled">
+                <li><a href="index.html" class="text-light">Home</a></li>
+                <li>
+                  <a href="accomodation.html" class="text-light"
+                    >Accommodation</a
+                  >
+                </li>
+                <li>
+                  <a href="destinations.html" class="text-light">Excursions</a>
+                </li>
+                <li><a href="contacts.html" class="text-light">Contacts</a></li>
+                <li><a href="#" class="text-light">Our Story</a></li>
+              </ul>
+            </div>
+
+            <div class="col-md-4 mb-3">
+              <h3>Contact Us</h3>
+              <p>
+                <strong>Phone:</strong> +254 742 767 169<br />
+                <strong>Email:</strong>
+                <a href="mailto:alitalia1106@gmail.com" class="text-light"
+                  >alitalia1106@gmail.com</a
+                ><br />
+                <strong>Address:</strong> Watamu, Kenya
+              </p>
+            </div>
+          </div>
+
+          <div class="text-center">
+            <h4>Follow Us</h4>
+            <a
+              href="https://www.facebook.com/bellifuorieanchedentro1974"
+              class="btn btn-outline-light btn-sm"
+            >
+              <i class="bi bi-facebook"></i>
+            </a>
+            <a
+              href="https://wa.me/254742767169"
+              class="btn btn-outline-light btn-sm"
+            >
+              <i class="bi bi-whatsapp"></i>
+            </a>
+          </div>
+
+          <div class="footer-bottom text-center mt-3">
+            <p>&copy; 2024 Nyumba Watamu. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
