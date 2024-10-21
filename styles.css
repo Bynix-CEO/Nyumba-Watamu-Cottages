@@ -4,15 +4,13 @@
 /* Home Page */
 .homePage {
   position: relative;
-  align-items: center;
   background-image: url(./images/clearbg.jpeg);
   background-size: cover;
   background-position: center;
   height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  justify-content: center; /* Center horizontally */
+  align-items: flex-start; /* Align items at the top */
   z-index: 1;
 }
 
@@ -27,18 +25,30 @@
   z-index: -1; /* Puts the overlay behind the content */
 }
 
+.textBox {
+  position: absolute; /* Make the text box position absolute */
+  top: 200px; /* Adjust this value to move it higher or lower */
+  text-align: center; /* Center align text */
+  color: white; /* Set text color */
+}
+
 .heroText {
-  position: relative;
-  color: white;
   font-size: 90px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-  text-align: center;
-  z-index: 2; /* Ensure text stays above the overlay */
+  margin: 0; /* Remove default margin */
+}
+
+p {
+  font-size: 24px; /* Adjust font size as needed */
+  margin: 10px 0; /* Add some margin above and below the paragraph */
 }
 
 @media (max-width: 1024px) {
   .heroText {
     font-size: 70px;
+  }
+  p {
+    font-size: 20px; /* Adjust for smaller screens */
   }
 }
 
@@ -46,16 +56,22 @@
   .heroText {
     font-size: 50px;
   }
+  p {
+    font-size: 18px; /* Adjust for smaller screens */
+  }
 }
 
 @media (max-width: 480px) {
   .heroText {
     font-size: 35px;
   }
+  p {
+    font-size: 16px; /* Adjust for smaller screens */
+  }
 }
 
 #getStartedButton {
-  font-size: 20px;
+  font-size: 15px;
   text-align: center;
   background-color: #40e0d0;
 }
