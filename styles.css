@@ -48,7 +48,7 @@ p {
     font-size: 70px;
   }
   p {
-    font-size: 20px; /* Adjust for smaller screens */
+    font-size: 30px; /* Adjust for smaller screens */
   }
 }
 
@@ -57,16 +57,16 @@ p {
     font-size: 50px;
   }
   p {
-    font-size: 18px; /* Adjust for smaller screens */
+    font-size: 25px; /* Adjust for smaller screens */
   }
 }
 
 @media (max-width: 480px) {
   .heroText {
-    font-size: 35px;
+    font-size: 45px;
   }
   p {
-    font-size: 16px; /* Adjust for smaller screens */
+    font-size: 25px; /* Adjust for smaller screens */
   }
 }
 
