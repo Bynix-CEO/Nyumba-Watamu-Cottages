@@ -159,7 +159,7 @@ h3 {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(44, 47, 51, 0.7); /* Dark overlay for text visibility */
+  background: rgba(44, 47, 51, 0.1); /* Dark overlay for text visibility */
   z-index: 1; /* Ensure it sits above the background */
 }
 
